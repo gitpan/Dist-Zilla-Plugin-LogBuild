@@ -1,0 +1,47 @@
+NAME
+    Dist::Zilla::Plugin::LogBuild - Add build information file (build.log)
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+    In your dist.ini:
+
+      [LogBuild]
+
+DESCRIPTION
+    This plugin generates a "build.log" file containing build information
+    (like the list of loaded plugins and their versions) to aid in
+    debugging.
+
+FUNCTIONS
+    None are exported by default, but they are exportable.
+
+SEE ALSO
+    Dist::Zilla
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Dist-Zilla-Plugin-LogBuild>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Dist-Zilla-Plugin-LogBuild>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    "/rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-LogBu ild"
+    in https:
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

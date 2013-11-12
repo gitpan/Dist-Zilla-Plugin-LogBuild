@@ -1,0 +1,28 @@
+---
+abstract: 'Add build information file (build.log)'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-LogBuild
+requires:
+  Dist::Zilla::File::FromCode: 0
+  Dist::Zilla::Role::FileGatherer: 0
+  Moose: 0
+  namespace::autoclean: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-LogBuild
+  homepage: https://metacpan.org/release/Dist-Zilla-Plugin-LogBuild
+  repository: git://github.com/sharyanto/perl-Dist-Zilla-Plugin-LogBuild.git
+version: 0.01
